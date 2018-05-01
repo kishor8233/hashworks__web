@@ -1,0 +1,421 @@
+
+
+  .shadow {
+    transition: all .5s ease;
+    &:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
+      transform: scale(1.01);
+    }
+  }
+
+    .heading{
+    position: relative;
+    width: 100%;
+    bottom:16px;
+    z-index: 500;
+}
+    .service{
+        font-family: 'muliRegular';
+        color: #4a4a4a;
+        &__container{
+            width:307px;
+            margin: 0 auto;
+
+           img {
+               width: 9px;
+               height: 16px;
+           }
+        }
+        &__headImg{
+            background-image: url(../assets/image/service.png);
+            background-repeat: no-repeat;
+            height:203px;
+            width: 100%;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
+        }
+        &__head{
+            font-size: 24px;
+            color: #fff;
+            display: flex;
+            align-items: flex-end;
+            height: 203px;
+            padding: 0px 0px 24px 5px;
+        }
+        &__content{
+            text-align: center;
+            margin: 32px auto;
+            h1{
+                font-size: 16px;
+                font-weight: normal;
+                color: #603c96;
+                padding-bottom: 16px;
+                font-family: 'muliSemiBold';
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        &__devops{
+            background-image: url(../assets/image/devops.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 166px;
+            background-color: #d8d8d8;
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 0px;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
+            h1{
+                color: #fff;
+                font-size: 24px;
+                padding: 115px 12px 0;
+                font-weight: normal;
+            }
+        }
+        &__cloudImg{
+            background-image: url(../assets/image/ui-ux.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
+            margin-bottom: 10px;
+            cursor: pointer;
+            h1{
+                width: 145px;
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: normal;
+                padding:115px 12px 0;
+                height: 100%;
+            }
+        }
+        &__uiUx{
+            background-image: url(../assets/image/data-science.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
+            margin-bottom: 10px;
+            cursor: pointer;
+            h1{
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: normal;
+                padding: 115px 12px 0;
+                height: 100%;
+            }
+        }
+        &__dataScience{
+            background-image: url(../assets/image/mobile/group-16.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
+            margin-bottom: 10px;
+           
+            cursor: pointer;
+            h1{
+                width: 140px;
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: normal;
+                padding: 115px 12px 0;
+                height: 100%;
+            }
+        }
+        &__mobile{
+            background-image: url(../assets/image/rectangle-3-copy-3.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
+            margin-bottom: 16px;
+            cursor: pointer;
+            h1{
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: normal;
+                padding: 115px 12px 0;
+                height: 100%;
+            }
+        }
+        .col-xs-12.col-sm-8.col-md-8.col-lg-8 {
+            padding: 0;
+        }
+    }
+@media only screen and (min-width: 768px){
+    
+    .heading{
+        width: 100%;
+        bottom:36px;
+        h1{
+           font-size: 36px;
+            width: 700px;
+            margin: 0 auto;
+        }
+    }
+    .service{
+        &__container{
+            width: 700px;
+
+            img {
+               width: 9px;
+               height: 19px;
+           }
+        }
+        &__headImg{
+            height: 203px;
+            margin-top: 48px;
+        }
+        &__head{
+            font-size: 32px;
+            height: 203px;
+            padding: 0px 0px 33px 5px;
+        }
+        &__content{
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 16px;
+                width: 468px;
+                margin: 0 auto;
+            }
+        }
+        &__detail &__container {
+            width: 100%;
+        }
+        &__detail {
+            width: 700px;
+            margin: 0 auto !important;
+        }
+        &__cloudImg{
+            width: 96%;
+            height: 236px;
+            h1 {
+                width: 250px;
+                font-size: 32px;
+                padding: 175px 25px 0;
+            }
+        }
+        &__mobile{
+            width: 96%;
+            margin: 0 0 20px 19px;
+            height: 236px;
+            h1 {
+                font-size: 32px;
+                padding: 175px 32px 0;
+            }
+        }
+        &__devops {
+            height: 236px;
+            h1 {
+                font-size: 32px;
+                padding: 160px 35px 0;
+            }
+        }
+        &__uiUx {
+            height: 236px;
+            h1 {
+                font-size: 32px;
+                padding: 175px 0px 0;
+            }
+        }
+        &__dataScience {
+            height: 236px;
+            h1 {
+                width: 250px;
+                font-size: 32px;
+                padding: 175px 25px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px){
+   
+    .heading{
+        width: 100%;
+        bottom:46px;
+        h1{
+           font-size: 48px;
+            width: 940px;
+            margin: 0 auto;
+        }
+    }
+    .service{
+        &__container{
+            width: 940px;
+
+            img {
+                width: 18px;
+                height: 24px;
+           }
+        }
+        &__headImg {
+            height:273px;
+            margin-top:66px;
+        }
+        &__head {
+            font-size:36px;
+            height:273px;
+            padding: 0px 0px 42px 0px;
+        }
+        &__content{
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 18px;
+                width: 645px;
+            }
+        } 
+        &__detail {
+            width: 940px;
+        }
+        &__cloudImg{
+            width: 96%;
+            height: 322px;
+            margin-bottom: 20px;
+            h1 {
+                width: 300px;
+                font-size: 36px;
+                padding: 230px 27px 0;
+            }
+        }
+        &__mobile{
+            margin: 0 0 20px 25px;
+            height: 322px;
+            margin-bottom: 28px;
+            h1 {
+                font-size: 36px;
+                padding: 230px 27px 0;
+            }
+        }
+        &__devops {
+            height: 322px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 230px 28px 0;
+                font-size: 36px;
+            }
+        }
+        &__uiUx {
+            height: 322px;
+            margin-bottom: 20px;
+            h1 {
+                font-size: 36px;
+                padding: 236px 0px 0;
+            }
+        }
+        &__dataScience {
+            height: 322px;
+            margin-bottom: 28px;
+            h1 {
+                width: 280px;
+                font-size: 36px;
+                padding: 230px 27px 0;
+            }
+        }
+        
+    }
+}
+@media only screen and (min-width: 1367px){
+   
+    .heading{
+        width: 100%;
+        bottom:46px;
+        h1{
+           font-size: 48px;
+            width: 940px;
+            margin: 0 auto;
+        }
+    }
+    .service{
+        &__container{
+            width: 1170px;
+
+             img {
+                width: 23px;
+                height: 30px;
+           }
+        }
+        &__headImg {
+            height: 384px;
+        }
+        &__head {
+            font-size: 48px;
+            height: 384px;
+        }
+        &__content{
+            h1 {
+                font-size: 32px;
+                padding-bottom: 32px;
+            }
+            p {
+                font-size: 24px;
+                width: 818px;
+            }
+        } 
+        &__detail {
+            width: 1170px;
+        }
+        &__cloudImg{
+            width: 96%;
+            height: 396px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 287px 36px 0;
+                font-size: 48px;
+            }
+        }
+        &__mobile{
+            margin: 0 0 20px 31px;
+            height: 396px;
+            margin-bottom: 28px;
+            h1 {
+                padding: 287px 36px 0;
+                font-size: 48px;
+            }
+        }
+        &__devops {
+            height: 396px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 287px 36px 0;
+                font-size: 48px;
+            }
+        }
+        &__uiUx {
+            height: 396px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 289px 15px 0;
+                font-size: 48px;
+            }
+        }
+        &__dataScience {
+            height: 396px;
+            margin-bottom: 28px;
+            h1 {
+                width: 310px;
+                padding: 287px 42px 0;
+                font-size: 48px;
+            }
+        }
+        
+
+    }
+}

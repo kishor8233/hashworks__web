@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'muliRegular';
+  src: url('../assets/fonts/Muli-Regular.ttf');
+}
+@font-face {
+  font-family: 'muliBold';
+  src: url('../assets/fonts/Muli-Bold.ttf');
+}
+@font-face {
+  font-family: 'muliLight';
+  src: url('../assets/fonts/Muli-Light.ttf');
+} 
+@font-face {
+  font-family: 'muliSemiBold';
+  src: url('../assets/fonts/Muli-SemiBold.ttf');
+} 
+$primary-color: #2faaba;
+
+.fullHeight {
+  height: 100%;
+}

@@ -1,0 +1,55 @@
+{% include head.html %}
+
+<div class="service">
+    <div class="service__headImg">
+        <div class=" service__container">
+            <div class="service__head">
+                Our Services
+            </div>
+        </div>
+    </div>
+    <div class=" service__container">
+        <div class="service__content">
+            <h1>Current problems tomorrows Products</h1>
+            <p>Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                Donec sollicitudin molestie malesuada.
+            </p>
+        </div>
+    </div>
+    <div class=" row service__detail">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service__devops shadow" onclick="redirect('/devOps/')">
+            <div class=" service__devopsImg">
+                <div class=" service__container">    
+                        <h1>Dev Ops <img src="../assets/image/arrow.png"/></h1>
+                </div>
+            </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 shadow">
+                <div class=" service__cloudImg" onclick="redirect('/uiux/')">
+                    <div class=" service__container">    
+                            <h1>UI/UX <img src="../assets/image/arrow.png"/></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service__uiUx shadow" onclick="redirect('/dataScience/')">
+               
+                   <div class=" service__container">    
+                            <h1>Data Science <img src="../assets/image/arrow.png"/> </h1>
+                    </div>
+             </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service__dataScience shadow" onclick="redirect('/mobile/')">
+                    <div class="service__container">    
+                            <h1>Mobility <img src="../assets/image/arrow.png"/></h1>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 shadow" onclick="redirect('/cloud/')">
+                <div class="service__mobile">
+                    <div class=" service__container">    
+                            <h1>Application On Cloud <img src="../assets/image/arrow.png"/></h1>
+                    </div>
+                </div>
+            </div>
+         </div>
+</div>
+{% include footer.html %}

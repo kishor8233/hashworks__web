@@ -1,0 +1,618 @@
+button{
+  cursor: pointer;
+}
+.product{
+    color: #3e3e3e;
+    font-family: 'muliRegular';
+    &__headImg{
+      background-image: url(../assets/image/product.png);
+      background-repeat: no-repeat;
+      height: 385px;
+      background-size:cover;
+      background-position: center center;
+      margin-top: 67px;
+    }
+  
+    &__content1{
+      width: 1158px;
+      margin: 0 auto;
+    }
+    &__head{
+      color: #fff;
+      font-size: 48px;
+      padding: 285px 0 32px;
+        
+    }
+    &__content {
+      text-align: center;
+      margin: 51px 0 66px;
+    }
+    &__content h1 {
+      color: #603c96;
+      font-size: 32px;
+      margin: 0 0 32px;
+      font-family: 'muliSemiBold';
+    }
+    &__content p {
+      font-size: 24px;
+      line-height: 30px;
+      width: 818px;
+      margin: 0 auto;
+    }
+    &__GroomeImg{
+      background-image: url(../assets/image/rectangle-10.png);
+      background-repeat: no-repeat;
+      height: 579px;
+      background-size: cover;
+      background-position: center center;
+    }
+    &__Groome{
+     color: #fff;
+     height: 579px;
+     display: flex;
+     align-items: center;
+    }
+    &__Groome h4 {
+      font-size: 24px;
+      font-weight: normal;
+    }
+    &__Groome h2 {
+      margin: 16px 0;
+      font-weight: normal;
+      font-size: 48px;
+    }
+    &__Groome_logo img{
+      width: 238px;
+    }
+    &__Groome a {
+      color: white;
+    }
+    &__Groome p {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    &__Groome_logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        color: white;
+      }
+    }
+    &__paketo{
+      margin: 64px 0 50px;
+    }
+  
+    &__paketo .row{
+      text-align: center;
+    }
+    &__borderRight{ 
+      border-right: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      img{
+        width: 230px !important;
+      }
+      p{
+        padding: 10px 0px 10px 0px;
+      }
+    h2{
+      padding: 10px 0px 0px 0px;
+    }
+    }
+    &__borderleft{
+      margin-top:5px;
+      p{
+        padding: 15px 0px 0px 0px;
+      }
+    h2{
+      padding: 15px 0px 0px 0px;
+    }
+    button{
+      margin-top:88px;
+    }
+    }
+    &__paketo img{
+      width:200px;
+    }
+    &__paketo p{
+      width: 457px;
+      margin: 0 auto 38px;
+      font-size: 24px;
+      font-family: 'muliRegular';
+    }
+    &__myButton{
+      color: #fff;
+      border-style: none;
+      width: 270px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+      font-size: 24px;
+      outline: none;
+    }
+    &__paketo h2{
+      color: #603c96;
+      font-size: 32px;
+      margin: 40px 0 51px;
+      font-family: 'muliRegular';
+      font-weight: normal;
+    }
+
+    &__borderTop{
+      border-top: solid 1px #e0e0e0;
+      width: 1028px;
+      margin: 70px auto 50px;
+    }
+    &__detail{
+      margin: 32px 0 42px;
+      text-align: center;
+    }
+    &__detail span{
+      font-size: 48px;
+      color: #603c96;
+      text-align: center;
+    }
+    &__detail p {
+      font-size: 24px;
+      text-align: left;
+    }
+    &__detail h1 {
+      margin-bottom: 71px;
+      color: #603c96;
+      font-weight: normal;
+      font-size: 32px;
+    }
+
+    &__pipeline h1 {
+      margin-bottom: 68px;
+      color: #603c96;
+      font-weight: normal;
+    }
+    
+    &__pipeline {
+        text-align: center;
+        margin: 50px 0 94px;
+    }
+    &__allign{
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__img2{
+      width:135px;
+      margin-top: 12px;
+    }
+  
+  &__arrow{
+    vertical-align: middle;
+  }
+  }
+  
+  @media only screen and (max-width: 1366px){
+  .product{
+    &__headImg{
+      height:274px;
+      margin-top: 67px;
+    }
+  
+    &__content1{
+      width: 935px;
+    }
+    &__head{
+      font-size: 36px;
+      padding: 190px 0 32px;
+        
+    }
+    &__content {
+      margin: 32px 0;
+    }
+    &__content h1 {
+      font-size: 24px;
+      margin: 0 0 16px;
+    }
+    &__content p {
+      font-size: 18px;
+      line-height:1.33;
+      width: 645px;
+     
+    }
+    &__GroomeImg{
+     height: 400px;
+    }
+     &__Groome{
+    height: 400px;
+    }
+    &__Groome h4 {
+      font-size: 16px;
+    }
+    &__Groome h2 {
+      font-size: 24px;
+    }
+    &__Groome_logo img{
+      width: 189px;
+    }
+    &__Groome p {
+      font-size: 16px;
+    }
+    &__Groome span {
+      font-size: 16px;
+    }
+
+    &__paketo{
+      margin: 32px 0;
+    }
+  
+    &__paketo .row{
+      text-align: center;
+    } 
+    &__borderRight{ 
+      border-right: 1px solid #ccc;
+      img{
+        width: 166px !important;
+        margin-top: 24px;
+      }
+      p{
+        padding: 10px 0px 10px 0px;
+      }
+    h2{
+      padding: 10px 0px 0px 0px;
+    }
+    }
+    &__borderleft{
+      margin-top: 25px;
+      p{
+        padding: 15px 0px 0px 0px;
+      }
+    h2{
+      padding: 15px 0px 0px 0px;
+    }
+    button{
+      margin-top:47px;
+    }
+    }
+    &__paketo img{
+      width: 130px;
+    }
+    &__paketo p{
+      width: 380px;
+      margin: 16px auto;
+      font-size: 16px;
+      font-family: 'muliRegular';
+    }
+    &__myButton{
+      width: 218px;
+      height: 46px;
+      font-size: 16px;
+      
+    }
+    &__paketo h2{
+      font-size: 24px; 
+      margin: 16px 0;
+      font-family: 'muliRegular';
+    }
+    &__borderTop{
+      border-top: solid 1px #e0e0e0;
+      width: 881px;
+      margin: 32px auto;
+    }
+    &__detail{
+      margin: 32px 0 42px;
+      text-align: center;
+    }
+    &__detail span{
+      font-weight: bold;
+    }
+    &__detail p {
+      font-size: 18px;
+    }
+    &__detail .col-sm-3,.col-md-3,.col-lg-3 {
+     padding: 0px;
+    }
+    &__detail h1 {
+      margin-bottom: 32px;
+    }
+    &__pipeline h1 {
+      margin-bottom: 62px;
+    }
+    
+    &__pipeline {
+        margin: 32px 0 61px;
+    }
+    &__allign{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__img2{
+      width:120px;
+    }
+  }
+  }
+  @media only screen and (max-width: 1024px){
+    .product{
+      &__headImg{
+        height:205px;
+        margin-top:49px;
+      }
+    
+      &__head {
+        font-size: 32px;
+        padding: 139px 0 32px;
+      }
+      &__content1{
+        width: 706px;
+      }
+      &__content h1 {
+        color: #603c96;
+        font-size: 18px;
+      }
+      &__content p {
+        font-size: 16px;
+        line-height: 21px;
+      }
+      &__GroomeImg {
+        height: 309px;
+      }
+      &__Groome{
+        height: 309px;
+      }
+      &__Groome_logo img {
+        width: 142px;
+      }
+      &__Groome h4 {
+        font-size: 14px;
+      }
+      &__Groome h2 {
+         font-size: 18px; 
+     }
+     &__Groome p {
+      font-size: 14px;
+    }
+    &__Groome span {
+      font-size: 14px;
+    
+    }
+    &__paketo {
+      margin: 16px 0 32px;
+    }
+    &__borderRight{ 
+      img{
+        margin-top: 24px;
+        width: 144px !important;
+      }
+      p{
+        padding: 10px 0px 10px 0px;
+      }
+    h2{
+      padding: 10px 0px 0px 0px;
+    }
+    }
+    &__borderleft{
+      margin-top: 24px;
+      p{
+        padding: 15px 0px 0px 0px;
+      }
+    h2{
+      padding: 15px 0px 0px 0px;
+    }
+    button{
+      margin-top: 38px;
+    }
+    }
+
+    &__paketo h2 {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: 'muliRegular';
+    }
+    &__paketo p {
+      width:302px; 
+      font-size: 14px;
+      font-family: 'muliRegular';
+    }
+    &__myButton {
+      width: 160px;
+      height: 38px;
+    }
+    &__paketo img {
+      width:115px;
+    }
+    &__borderTop {
+      width: 701px;
+      margin: 30px auto 32px;
+    }
+    &__detail h1 {
+      font-size: 24px;
+    }
+    &__detail span {
+      font-size: 36px;
+    }
+    &__detail {
+      margin: 32px 0 25px;
+    }
+    &__detail p {
+      font-size: 16px;
+      width: 179px;
+    }
+    &__detail  .col-sm-3,.col-md-3 , .col-lg-3 {
+      padding: 0px;
+    }
+   
+    &__pipeline {
+      margin: 32px 0 69px;
+    }
+    &__pipeline h1 {
+      font-size: 24px;
+    }
+    &__img2 {
+      width:115px;
+    }
+    }
+  
+  }
+  @media only screen and (max-width: 767px){
+    .product{
+     
+      &__headImg{
+        height:203px;
+        margin-top:0px;
+      }
+      &__head {
+        padding: 148px 0 16px;
+        font-size: 24px;
+        margin: 0;
+     }
+      &__content1{
+        width: 300px;
+      }
+      &__content {
+        margin: 23px auto 32px;
+    }
+    &__content h1 {
+      font-size: 16px;
+    }
+    &__content p {
+      width: 302px;
+      font-size: 14px;
+    }
+    &__GroomeImg {
+      height: 156px;
+    }
+    &__Groome {
+      height: 156px;
+      display: flex;
+      align-items: center;
+      padding-left: 21px;
+      justify-content: left;
+    }
+    &__Groome_logo {
+      display: block;
+      justify-content: left;
+      align-items: left;
+    }
+    &__Groome_logo img {
+      width: 88px;
+    }
+    &__Groome h4 {
+      font-size: 12px;
+      padding: 17px 0 8px;
+      margin: 0;
+    }
+    &__Groome h2 {
+      font-size: 14px;
+      margin: 0;
+      padding-bottom: 8px;
+    }
+    &__Groome p {
+      display: none;
+    }
+    &__Groome span {
+      font-size: 12px;
+      font-family: 'muliRegular';
+    }
+     &__Groome a {
+      color: white;
+    }
+  
+    &__borderRight{ 
+      border-right: none;
+      img{
+        width: 116px !important;
+        margin-top: 10px;
+      }
+      p{
+        padding:0px;
+      }
+    h2{
+      padding:0px;
+    }
+    }
+    &__borderleft{
+      margin-top: 20px;
+      p{
+        padding:0px;
+      }
+    h2{
+      padding:0px;
+    }
+    button{
+      margin-top:8px;
+    }
+    }
+    &__paketo h2 {
+      font-size: 16px;
+      font-family: 'muliRegular';
+    }
+    &__paketo p {
+      font-size: 12px;
+      font-family: 'muliRegular';
+    }
+    &__detail {
+      margin: 32px 0 25px;
+      .row{
+        padding: 0 30px;
+      }
+      span {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 33px;
+        margin-left: 10px;
+      }
+      h1 {
+        font-size: 18px;
+        margin: 32px 0;
+      }
+    }
+    &__myButton {
+      width: 104.5px;
+      height: 26.4px;
+      font-size: 10px;
+    }
+    &__paketo img {
+      width:100px;
+    }
+    &__img2 {
+      width: 95px;
+    }
+   
+    &__borderTop{
+      width: 261px;
+      margin: 32px auto;
+    }
+    &__detail .row div:last-child p {
+      margin: 0;
+      margin-left: 10px;
+    }
+    &__pipeline {
+      margin: 32px 0;
+      width: 295px;
+      h1 {
+        font-size: 18px;
+        margin-bottom: 32px;
+      }     
+    }
+  }
+  .slickprod{
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f;
+  } 
+  .slickprod1{
+    position: absolute;
+    left: -255px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f;
+  } 
+  } 
+  

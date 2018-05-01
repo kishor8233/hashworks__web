@@ -1,0 +1,23 @@
+
+title: Hasworks Website Development | UI/UX
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+
+  Hashworks is an enterprise tech-startup, helping Enterprise 
+  businesses with IT modernization &amp; Digital transformation specialized in Data Science, 
+  Web application development, Cloud, User Interface (UI), User Experience (UX), Mobility, DevOps,
+   Agile Development,software testing and Performance engineering. | Hashworks Pvt Ltd | Bangalore
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://manojkumarhashworks.github.io/groome_static" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed  
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
